@@ -21,3 +21,8 @@
 27-11-2022	16:12:10	9e389550-de9b-420f-94c0-42f421a2aea9	GET	undefined	/
 27-11-2022	16:12:16	debef671-d5f9-4159-afa8-0d2824beffd0	GET	undefined	/
 27-11-2022	16:12:16	dccf5faa-46dc-4212-8178-25291ccf5c34	GET	undefined	/css/style.css
+27-11-2022	18:41:32	021779c3-b4a5-4eea-99e3-227546d8323d	GET	undefined	/
+27-11-2022	18:41:32	6ccb1a70-2c5e-4ec9-97ec-0eb1c6d3eb12	GET	undefined	/css/style.css
+27-11-2022	18:41:33	c234a7de-b92f-4d44-9d4c-d16b99fd50c6	GET	undefined	/favicon.ico
+27-11-2022	18:41:38	d8e36ce4-5fca-4c12-85ff-4ab382f95edc	GET	undefined	/subdir
+27-11-2022	18:42:10	36887f9c-7bf9-4ca0-9672-639280ef3ec6	GET	undefined	/subdir/test
