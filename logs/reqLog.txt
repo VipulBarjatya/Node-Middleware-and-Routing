@@ -66,3 +66,14 @@
 28-11-2022	14:26:04	0fd52723-1361-47f2-9632-dec128e2d281	GET	undefined	/css/style.css
 28-11-2022	14:26:11	f40af5cf-2cda-4401-9be7-e671db2860c5	GET	undefined	/
 28-11-2022	14:26:11	a4ad6ae6-ca4a-41af-adda-65516a760499	GET	undefined	/css/style.css
+28-11-2022	15:18:17	0c2d9f42-ba2e-4d5b-89f0-96923f519ae6	GET	undefined	/employees
+28-11-2022	15:20:44	2a535358-a786-4d36-bed6-5c77dbaa2e84	POST	undefined	/employees
+28-11-2022	15:21:43	123f5c39-d674-4a13-842b-96966577bdbb	PUT	undefined	/employees
+28-11-2022	15:22:08	20be2105-3ede-471d-91ac-eba2fc21896c	GET	undefined	/employees
+28-11-2022	15:22:28	536e39b1-d406-4857-ab9c-e8a39f897601	GET	undefined	/employees
+28-11-2022	15:23:11	77e78d98-41d7-45d9-9094-3e7313d53c33	DELETE	undefined	/employees
+28-11-2022	15:23:51	ccd8aaaa-7a1a-46d9-98ee-ede176836aed	GET	undefined	/employees/2
+28-11-2022	15:24:12	1930a399-4369-436e-a217-8bfa2fda2bf2	GET	undefined	/employees/
+28-11-2022	15:31:00	2b5f4141-6d7e-4667-aaf8-18a5f099dd39	GET	undefined	/subdir/asasdad
+28-11-2022	15:31:01	8bd88699-d1c6-4ddd-ac27-00b778e428f3	GET	undefined	/subdir/css/style.css
+28-11-2022	15:31:11	046fcc79-6e50-4043-8d18-d58593c26b05	GET	undefined	/subdir/test/
