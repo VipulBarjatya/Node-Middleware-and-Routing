@@ -1,3 +1,4 @@
+// Setting Up Employees Database
 const data = {
   employees: require("../model/employees.json"),
   setEmployees: function (data) {
@@ -5,6 +6,7 @@ const data = {
   },
 };
 
+// Fetching All Employees
 const getAllEmployees = (req, res) => {
   if (!data.employees) {
     return res.status(400).send("Data Not found");
@@ -12,6 +14,7 @@ const getAllEmployees = (req, res) => {
   res.json(data.employees);
 };
 
+// Adding New Employee to Database
 const createNewEmployee = (req, res) => {
   const newEmployee = {
     id: data.employees?.length
@@ -29,6 +32,7 @@ const createNewEmployee = (req, res) => {
   res.status(201).json(data.employees);
 };
 
+// Updating Employee in Database
 const updateEmployee = (req, res) => {
   const employee = data.employees.find(
     (emp) => emp.id === parseInt(req.body.id)
@@ -53,6 +57,7 @@ const updateEmployee = (req, res) => {
   res.json(data.employees);
 };
 
+// Delete employee from Database
 const deleteEmployee = (req, res) => {
   const employee = data.employees.find(
     (emp) => emp.id === parseInt(req.body.id)
@@ -70,6 +75,7 @@ const deleteEmployee = (req, res) => {
   res.json(data.employees);
 };
 
+// Fetching Specific employee from database
 const getEmployee = (req, res) => {
   const employee = data.employees.find(
     (emp) => emp.id === parseInt(req.params.id)
